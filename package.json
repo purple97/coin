@@ -1,0 +1,15 @@
+{
+  "name": "coin-webdev",
+  "version": "1.0.0",
+  "description": "coin web dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dezhao.chen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.1"
+  }
+}
