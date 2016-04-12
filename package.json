@@ -8,6 +8,9 @@
   },
   "author": "dezhao.chen",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  },
   "dependencies": {
     "babel-core": "^5.8.25",
     "babel-loader": "^5.3.2",
@@ -19,6 +22,6 @@
     "less-plugin-clean-css": "~1.5.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.15",
-    "webpack-dev-server": "^1.11.0"
+    "webpack-dev-middleware": "^1.6.1"
   }
 }
