@@ -4,7 +4,12 @@
   "description": "coin web dev",
   "main": "index.js",
   "scripts": {
+    "postinstall": "/usr/local/bin/coin-webdev init",
     "dev": "node index.js"
+  },
+  "bin": {
+    "dev": "./index.js",
+    "build": "./app/build"
   },
   "author": "dezhao.chen",
   "license": "ISC",
