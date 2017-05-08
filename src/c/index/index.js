@@ -15,9 +15,9 @@ Index.prototype = {
 
     render: function () {
         var _html = tpl({
-            title: 'Hello World'
+            title: 'Hello World!!'
         });
-        this.el[0].innerHTML = _html;
+        this.el.innerHTML = _html;
     }
 };
 

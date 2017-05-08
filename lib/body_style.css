@@ -7,9 +7,10 @@ ul li{
 	width:300px; 
 	padding:5px;
 	font-family: "Microsoft YaHei";
+	font-size: 28px;
 }
 a{
-	color:blue; 
+	color:#666;
 	text-decoration:none;
 	display: block;
 	padding:5px 0;
